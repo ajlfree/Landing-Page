@@ -60,6 +60,7 @@ ul {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    border-bottom: solid 1px #522833ad;
 }
 
 h3 {
@@ -167,10 +168,8 @@ h3 {
     background-color: #f1d2dd;
     color: #522833;
     font-weight: bold;
-    /*
     border-top: solid 1px #522833ad;
     border-bottom: solid 1px #522833ad;
-    */
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-content: center;
@@ -188,12 +187,13 @@ h3 {
 .sign-up {
     display: flex;
     margin: 20px 100px;
-    background-color: #361b22;
+    background: rgb(195,222,144);
+    background: linear-gradient(50deg, rgba(195,222,144,1) 23%, rgba(217,216,180,1) 43%, rgba(241,210,221,1) 62%);
     padding: 20px 60px;
     border-radius: 5px;
     justify-content: space-between;
-    color: #f1e9e9;
-    border: 1px #2f302e solid;  
+    color: #2f302e;
+    border: 2px #2f302e solid;  
 }
 
 .txt {
@@ -222,7 +222,7 @@ h3 {
     border-radius: 3px;
     color: #361b22;
     font-weight: bold;
-    border: pink solid 2px;
+    border: #361b22 solid 2px;
     flex-shrink: 0;
     padding: 5px;
 
