@@ -156,23 +156,58 @@ h3 {
 
 }
 
-/* This is the quote */
+/* This is the quote and sign-up container */
 
 
 .quote {
     display: flex;
-    font-size: 28px;
+    font-size: 26px;
     margin: 40px 10px;
     padding: 30px 200px;
     background-color: #e0d4d4;
-    text-align: center;
     color: #53613a;
     font-weight: bold;
     border: solid 1px #522833ad;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+
+.name {
+    display: flex;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.sign-up {
+    display: flex;
+    margin: 20px 100px;
+    background-color: #f1d2dd;
+    padding: 20px 60px;
+    border-radius: 12px;
+    justify-content: space-between;
+    
+}
+
+.txt {
+    flex: display;
+    flex-direction: column;
+}
+
+.big {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.one {
+    align-self: center;
+
+}
 /*This is for the footer*/
 
 
