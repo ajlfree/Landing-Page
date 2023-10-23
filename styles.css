@@ -199,13 +199,28 @@ h3 {
 }
 
 .big {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin: 5px;
+    font-family: monospace, "Times New Roman", sans-serif;
 }
 
+.little {
+    margin: 5px;
+    font-family: monospace, "Times New Roman", sans-serif;
+    font-size: 12px;
+}
 .one {
     align-self: center;
+    font-size: 15px;
+    background-color:  #7d9255;
+    border: none;
+    font-family: "Times New Roman", sans-serif;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    border: rgb(44, 42, 42) solid 1px;
+    flex-shrink: 0;
 
 }
 /*This is for the footer*/
