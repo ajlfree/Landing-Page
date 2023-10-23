@@ -186,11 +186,13 @@ h3 {
 .sign-up {
     display: flex;
     margin: 20px 100px;
-    background-color: #f1d2dd;
+    background-color: #b98fa6;
     padding: 20px 60px;
-    border-radius: 12px;
+    border-radius: 5px;
     justify-content: space-between;
-    
+    color: #fff9f9;
+    border: 1px #361b22 solid;  
+    font-weight: bold;
 }
 
 .txt {
@@ -213,11 +215,11 @@ h3 {
 .one {
     align-self: center;
     font-size: 15px;
-    background-color:  #7d9255;
+    background-color:  #f1e9e9;
     border: none;
     font-family: "Times New Roman", sans-serif;
     border-radius: 3px;
-    color: white;
+    color: #361b22;
     font-weight: bold;
     border: rgb(44, 42, 42) solid 1px;
     flex-shrink: 0;
@@ -225,6 +227,16 @@ h3 {
 }
 /*This is for the footer*/
 
+.footer {
+    display: flex;
+    background-color:#607a30;
+    font-size: 10px;
+    padding: 5px;
+    justify-content: center;
+    color: white;
+    font-family: monospace, "Times New Roman", sans-serif;
+    margin-top: 40px;
 
+}
 
 
