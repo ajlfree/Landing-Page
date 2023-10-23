@@ -162,13 +162,15 @@ h3 {
 .quote {
     display: flex;
     font-size: 26px;
-    margin: 40px 10px;
+    margin: 40px 0px;
     padding: 30px 200px;
-    background-color: #e0d4d4;
-    color: #53613a;
+    background-color: #f1d2dd;
+    color: #522833;
     font-weight: bold;
-    border: solid 1px #522833ad;
-    border-radius: 15px;
+    /*
+    border-top: solid 1px #522833ad;
+    border-bottom: solid 1px #522833ad;
+    */
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-content: center;
@@ -186,13 +188,12 @@ h3 {
 .sign-up {
     display: flex;
     margin: 20px 100px;
-    background-color: #b98fa6;
+    background-color: #361b22;
     padding: 20px 60px;
     border-radius: 5px;
     justify-content: space-between;
-    color: #fff9f9;
-    border: 1px #361b22 solid;  
-    font-weight: bold;
+    color: #f1e9e9;
+    border: 1px #2f302e solid;  
 }
 
 .txt {
@@ -221,8 +222,9 @@ h3 {
     border-radius: 3px;
     color: #361b22;
     font-weight: bold;
-    border: rgb(44, 42, 42) solid 1px;
+    border: pink solid 2px;
     flex-shrink: 0;
+    padding: 5px;
 
 }
 /*This is for the footer*/
